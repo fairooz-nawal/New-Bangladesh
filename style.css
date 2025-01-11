@@ -48,6 +48,15 @@ body {
     text-align: center;
 }
 
+.inputStyle {
+    width: 100%;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
 /* frequent used classes end*/
 
 /* banner style start */
@@ -107,6 +116,10 @@ body {
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
     padding: 32px;
+}
+
+.vision-card:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 #vision-card-2 {
@@ -241,10 +254,11 @@ body {
 
 /* donate card style start */
 
-.donateContent{
-    width:1104px;
+.donateContent {
+    width: 1104px;
     margin: 0 auto;
 }
+
 .donateCardContainer {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -263,20 +277,13 @@ body {
     font-weight: 700;
 }
 
-.donateCard:hover{
+.donateCard:hover {
     background: #C6E4D6;
 }
 
-#Donation>input{
-    width: 100%;
-    height: 41px;
-    padding: 11px 20px 11px 20px;
-    border-radius: 20px;
-    border:none;
-    text-align: center;
-}
 
-#Donation>button{
+
+#Donation>button {
     width: 122px;
     height: 41px;
     padding: 11px 20px 11px 20px;
@@ -284,3 +291,72 @@ body {
 
 
 /* donate card style end */
+
+/* subscribe style start */
+
+#Subscribe {
+    box-sizing: border-box;
+    margin-top: 80px;
+    background: #C6E4D6;
+    padding: 40px 100px;
+    border-radius: 20px;
+}
+
+.subcribeContent{
+    width: 50%;
+    margin:0px auto;
+}
+
+.inputContainer>input {
+    box-sizing: border-box;
+    width: 50%;
+    height: 56px;
+    padding: 17px 34px 17px 34px;
+}
+
+.inputContainer {
+    width: 750px;
+    height: 55px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 0px;
+    margin: 0 auto;
+}
+
+
+.inputfield {
+    grid-column: span 8; 
+}
+
+.inputfield>input{
+    width: 95%;
+    height: 95%;
+    border-radius: 10px 0px 0px 10px;
+    border:none;
+    padding-left: 30px;
+    padding: 1.5px 0px 1.1px 30px;
+}
+
+
+.inputbutton {
+    grid-column: span 2; 
+}
+
+.inputbutton>button{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 106, 80);
+    border-radius: 0px 10px 10px 0px;
+    border: none; 
+    color:white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.inputbutton>button:hover{
+    background: rgb(0, 61, 46);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+
+/* subscribe style end */
