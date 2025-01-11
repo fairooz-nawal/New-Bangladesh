@@ -1,14 +1,3 @@
-### WELCOME TO ASSIGNMENT-001
-
-# <img width=20 src="https://img.icons8.com/?size=96&id=60238&format=png"/> BANGLADESH 2.0
-
-## **📅 Deadline For 60 marks**: 11th January , 2025 ( 11:59 pm ⏱️)
-
-## **📅 Deadline For 50 marks**: 12th January , 2025 ( 11:59 pm ⏱️)
-
-**📅 Deadline For 30 marks**: Any time after 12th January.
-
-## Requirements (50)
 
 ### 1. Banner Section
 
@@ -58,8 +47,6 @@
 
 ---
 
-# CHALLENGES (10)
-
 ### 5. Newsletter Section
 
 - A clean and functional design for newsletter subscriptions:
@@ -89,23 +76,3 @@
 
 ---
 
-## 5 Commit and No Lorem Ipsum
-
-- A minimum of five commits were made to ensure incremental progress.
-- No placeholder text (e.g., Lorem Ipsum) . All content must have to be meaningful and relevant.
-
----
-
-# Technology
-
-- HTML & CSS only
-- You can't use any other technology / Framework.
-
----
-
-# What to Submit
-
-- Your Github Repository . ex.("https://github.com/ProgrammingHero1/B11A1--assignment-1")
-- Your Live Link. ex.(https://github.com/ProgrammingHero1/B11A1--assignment-1)
-
----
