@@ -25,17 +25,15 @@ body {
 
 .banner-content>h3 {
     color: rgba(14, 14, 14, 0.5);
-    font-family: Fira Sans;
     font-size: 24px;
     font-weight: 500;
 }
 
 .banner-content>h1 {
     color: rgb(14, 14, 14);
-    font-family: Fira Sans;
     font-size: 56px;
     font-weight: 700;
-    margin:16px 0px 24px 0px;
+    margin: 16px 0px 24px 0px;
 }
 
 .banner-content>button {
@@ -47,8 +45,9 @@ body {
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 600;
-    border:none;
+    border: none;
 }
+
 .banner-content>button:hover {
     border-radius: 8px;
     background: rgb(0, 61, 46);
@@ -58,7 +57,7 @@ body {
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 600;
-    border:none;
+    border: none;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
@@ -72,4 +71,111 @@ body {
 .bannerImage>img {
     object-fit: cover;
     width: 100%;
+}
+
+.vision-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.vision-content>h1 {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    margin: 80px 0px 24px 0px;
+}
+
+.vision-content>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.vision-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+#vision-card-1 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+
+#vision-card-2 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #C6E4D6;
+    padding: 32px;
+}
+
+#vision-card-3 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #F7EBCF;
+    padding: 32px;
+}
+
+.visionImageContainer {
+    width: 49.66px;
+    height: 53.09px;
+}
+
+.visionImageContainer>img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.vision-card>h1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 26px 0px 12px 0px;
+}
+
+.vision-card>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+#vision-card-2>p {
+    margin-bottom: 44px;
+}
+
+.vision-card>button {
+    width: 122px;
+    height: 41px;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.vision-card>button:hover {
+    background: rgb(39, 66, 112);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#vision-card-2>button {
+    background: #09A15C;
+}
+
+#vision-card-2>button:hover {
+    background: #043f24;
+}
+
+#vision-card-3>button {
+    background: #FFC239;
+}
+
+#vision-card-3>button:hover {
+    background: #624910
 }
